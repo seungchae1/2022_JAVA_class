@@ -8,6 +8,7 @@ public class Car{
 	void speedUp(){ // 속도 증가하다
 	velocity += 5;
 	}
+	
 	void speedDown(){ // 속도 감소하다
 	velocity -= 5;
 	}

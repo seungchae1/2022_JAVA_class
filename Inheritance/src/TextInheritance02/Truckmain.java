@@ -1,7 +1,6 @@
 package TextInheritance02;
 
 public class Truckmain {
-	
 	public static void main(String[] args){
 		Truck mytruck = new Truck();
 		mytruck.carname = "프론티어";
