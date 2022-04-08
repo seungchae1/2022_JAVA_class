@@ -3,9 +3,8 @@ package TextInheritance03;
 public class Leader extends Student{
 	boolean leader;
 	
-	public Leader(String name, String hackbun, boolean isleader) {
-		this.name=name;
-		this.hakbun=hakbun;
+	public Leader(String name, String hakbun, boolean isleader) {
+		super(name,hakbun); //상위클래스의 매개변수 2개를 갖는 생성자 호출
 		this.leader=isleader;
 	}
 	void isLeader() {
