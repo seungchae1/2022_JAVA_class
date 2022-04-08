@@ -8,9 +8,7 @@ public class Leader extends Student{
 		this.leader=isleader;
 	}
 	void isLeader() {
-		System.out.print(name+"은 ");
-		if(leader)
-		System.out.println("학급회장입니다");
-		else System.out.println("학급회장이 아닙니다");
+		if(leader) System.out.println(name+"은 학급회장입니다");
+		else System.out.println(name+"은 학급회장이 아닙니다");
 	}
 }
